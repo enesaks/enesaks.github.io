@@ -4,4 +4,4 @@ app = flask(__name__)
 
 @app.route('/')
 def index():
-    return 'test.html'
+    return '<h1>TEST PYTHON</h1>'
