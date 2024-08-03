@@ -12232,3 +12232,27 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
+
+.about-img-wrapper {
+  position: relative; /* Çerçevenin fotoğrafın üstüne yerleştirilmesi için */
+  display: inline-block; /* Fotoğrafın ve çerçevenin bir arada görünmesi için */
+}
+
+.about-img-holder {
+  border-radius: 50%; /* Yuvarlak şekil oluşturur */
+  overflow: hidden; /* Fotoğrafın yuvarlak alan dışında kalan kısmını gizler */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #695aa6; /* Çerçeve rengi ve kalınlığı */
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  transform: scale(1.1); /* Resmi %10 yakınlaştırır */
+}
+
+
+
+
